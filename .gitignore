@@ -1,0 +1,37 @@
+# Ignorar node_modules em todas as pastas
+**/node_modules/
+
+# Ignorar build do React (frontend)
+quiz-frontend/build/
+
+# Ignorar logs npm/yarn em qualquer lugar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos de ambiente sensíveis
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Ignorar arquivos de cache npm
+**/.npm/
+
+# Ignorar arquivos temporários e sistema operacional
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignorar diretórios temporários
+tmp/
+temp/
+
+# Cobertura de testes, se houver
+coverage/
+
+# Arquivos temporários do editor
+*.swp
+*.swo
